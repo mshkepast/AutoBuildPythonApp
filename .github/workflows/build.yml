@@ -28,7 +28,7 @@ jobs:
       - name: Build exe (PyInstaller)
         shell: bash
         run: |
-          pyinstaller --onefile --noconsole -n YourApp src/your_app/main.py
+          pyinstaller --onefile --noconsole -n YourApp src/main.py
 
       - name: Package portable zip
         shell: pwsh
